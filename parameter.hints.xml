@@ -1,5 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <blacklists />
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="Player.Player(n)" />
+      </blacklist>
+    </blacklists>
   </component>
 </application>
